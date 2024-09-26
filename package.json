@@ -1,0 +1,19 @@
+{
+  "name": "react-graphql-node-mongo-boilerplate",
+  "version": "1.0.0",
+  "description": "graphql tutorial",
+  "main": "index.js",
+  "scripts": {
+    "start-fe": "npm run --prefix ./frontend start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kirkeaston/react-graphql-node-mongo-boilerplate.git"
+  },
+  "author": "Kirkle Kirkleton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kirkeaston/react-graphql-node-mongo-boilerplate/issues"
+  },
+  "homepage": "https://github.com/kirkeaston/react-graphql-node-mongo-boilerplate#readme"
+}
