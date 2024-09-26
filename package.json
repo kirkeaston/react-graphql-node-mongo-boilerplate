@@ -4,7 +4,7 @@
   "description": "graphql tutorial",
   "main": "index.js",
   "scripts": {
-    "test": "-test"
+    "start-fe": "npm run --prefix ./frontend start"
   },
   "repository": {
     "type": "git",
