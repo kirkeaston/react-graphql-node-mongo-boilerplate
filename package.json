@@ -4,7 +4,9 @@
   "description": "graphql tutorial",
   "main": "index.js",
   "scripts": {
-    "start-fe": "npm run --prefix ./frontend start"
+    "start-fe": "npm run --prefix ./frontend start",
+    "start:mw": "npm run --prefix ./middleware start",
+    "start": "concurrently \"npm run start:fe\" \"npm run start:mw\""
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/kirkeaston/react-graphql-node-mongo-boilerplate/issues"
   },
-  "homepage": "https://github.com/kirkeaston/react-graphql-node-mongo-boilerplate#readme"
+  "homepage": "https://github.com/kirkeaston/react-graphql-node-mongo-boilerplate#readme",
+  "devDependencies": {
+    "concurrently": "^9.0.1"
+  }
 }
