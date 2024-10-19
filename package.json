@@ -20,5 +20,8 @@
   "homepage": "https://github.com/kirkeaston/react-graphql-node-mongo-boilerplate#readme",
   "devDependencies": {
     "concurrently": "^9.0.1"
+  },
+  "dependencies": {
+    "mongodb": "^6.9.0"
   }
 }
