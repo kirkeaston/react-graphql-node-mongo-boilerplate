@@ -1,0 +1,34 @@
+// const collection = db.collection('users');
+
+// // get all
+// await collection.find().toArray();
+
+// // get one (for example, by name
+// await collection.findOne({ name: 'Charles' });
+
+// // create one
+// await collection.insertOne({ userId: '5', name: 'Eric' });
+
+// // create many
+// await collection.insertMany([
+//   { userId: 5, name: 'Ethan' },
+//   { userId: 6, name: 'Felix' }
+// ]);
+
+// // update one
+// await collection.updateOne({ userId: '5' }, { $set: { name: 'Ethan' } });
+
+// // delete one
+// await collection.deleteOne({ userId: '5' });
+
+// // get all whose userId is less than 3
+// await collection.find({ userId: { $lt: 3 } }).toArray();
+
+// // append '*' to user names whose id is in a list [2,3]
+// await collection.updateMany(
+//   { userId: { $in: [2, 3] } },
+//   { $set: { name: { $concat: ['$name', '*'] } } }
+// );
+
+// // delete all whose userId is an odd number
+// await collection.deleteMany({ userId: { $mod: [2, 1] } });
