@@ -15,8 +15,7 @@ const getUsers = async (req, res) => {
   }
 };
 
-//test to see if a deployment from here will allow me to access the right shit
-//why isn't this pushing...
+//this shouldn't be working why is it working
 
 module.exports = {
   getUsers,
