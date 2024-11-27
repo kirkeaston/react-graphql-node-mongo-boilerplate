@@ -37,6 +37,7 @@ async function startServer() {
     app.listen(PORT, () => console.log(`💫 Server ready at http://localhost:${PORT}/graphql`));
   }
 }
+//another vercel test
 
 startServer();
 const requestHandler = app;
