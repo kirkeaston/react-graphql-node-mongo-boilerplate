@@ -15,8 +15,6 @@ const getUsers = async (req, res) => {
   }
 };
 
-//this shouldn't be working why is it working
-
 module.exports = {
   getUsers,
 };
