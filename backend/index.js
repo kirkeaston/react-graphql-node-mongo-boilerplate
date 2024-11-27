@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
 app.use('/test', testRouter.getUsers);
 
 async function startServer() {
-  const port = process.env.PORT || 5000;
+  const port = process.env.PORT || 4999;
   app.listen({ port }, () =>
     console.log(`✨ Server ready at http://localhost:${port}`)
   );
